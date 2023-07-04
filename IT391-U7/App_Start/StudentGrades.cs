@@ -56,7 +56,7 @@ namespace IT391_U7.App_Start
             stuGrades.Add(aGrade);
         }
 
-        //Calculating Average grade
+        //Calculating Average grades
         private int AverageGrade()
         {
             int averageG = 0;
@@ -68,7 +68,7 @@ namespace IT391_U7.App_Start
             averageG = AvG / stuGrades.Count;
             return averageG;
         }
-        //Calculating Maximum grade
+        //Calculating Maximum grades
         private int GradeMax()
         {
             stuGrades.Sort();
@@ -76,7 +76,7 @@ namespace IT391_U7.App_Start
             return maximumG;
         }
 
-        //Calculating Minimum grade
+        //Calculating Minimum grades
         private int GradeMin()
         {
             stuGrades.Sort();
